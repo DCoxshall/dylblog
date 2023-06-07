@@ -1,11 +1,12 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 export default class Navbar extends React.Component {
     render() {
         return (
             <div className="navbar">
-                <a href="http://localhost:3000/projects">projects</a>
-                <a href="http://localhost:3000/resume">resume</a>
+                <Link to="/projects">projects</Link>
+                <Link to="/resume">resume</Link>
             </div>
         )
     }
