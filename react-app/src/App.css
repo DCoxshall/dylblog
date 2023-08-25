@@ -22,3 +22,18 @@ body {
     flex: 1;
     padding: 0 20px 0 20px;
 }
+
+.ProjectCard {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.ProjectCard>img {
+    width: 50%
+}
+
+.ProjectCard>.ProjectText {
+    width: 50%;
+    text-align: center;
+}

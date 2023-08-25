@@ -1,0 +1,8 @@
+[
+    {
+        "title": "dyledit",
+        "description": "A lightweight, no-dependencies, terminal-based text editor written in pure Python.",
+        "image": "dyledit_screenshot.png",
+        "key": 1
+    }
+]
