@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Root from "./routes/root";
+import Resume from "./routes/resume";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />
+  }, {
+    path: "/resume",
+    element: <Resume />
   }
 ])
 
