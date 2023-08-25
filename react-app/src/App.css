@@ -1,7 +1,7 @@
 body {
     background-color: #F8F0E3;
     align-items: center;
-    font-family: Consolas;
+    font-family: Consolas, monaco, monospace;
 }
 
 
@@ -17,7 +17,7 @@ body {
     flex: 1 1 0px;
 }
 
-.navbar > * {
+.navbar>* {
     text-align: center;
     flex: 1;
     padding: 0 20px 0 20px;
