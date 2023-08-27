@@ -7,8 +7,16 @@ body {
 
 .InnerPage {
     text-align: left;
-    width: 700px;
+    width: 100%;
     margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .InnerPage {
+        text-align: left;
+        width: 700px;
+        margin: auto;
+    }
 }
 
 .navbar {
@@ -25,15 +33,34 @@ body {
 
 .ProjectCard {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 5px;
 }
 
+@media screen and (min-width: 768px) {
+    .ProjectCard {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
+}
+
 .ProjectCard>img {
-    width: 50%
+    width: 100%
 }
 
 .ProjectCard>.ProjectText {
-    width: 50%;
+    width: 100%;
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .ProjectCard>img {
+        width: 50%
+    }
+
+    .ProjectCard>.ProjectText {
+        width: 50%;
+        text-align: center;
+    }
 }
