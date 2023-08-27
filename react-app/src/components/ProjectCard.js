@@ -5,7 +5,7 @@ export default function ProjectCard(props) {
         <div className="ProjectCard">
             <img src={props.image} alt={props.title} />
             <div className="ProjectText">
-                <h2>{props.title}</h2>
+                <h2><a href={props.github_link}>{props.title}</a></h2>
                 <p>{props.description}</p>
             </div>
         </div>

@@ -1,6 +1,7 @@
 [
     {
         "title": "dyledit",
+        "github_link": "https://github.com/DCoxshall/dylblog",
         "description": "A lightweight, no-dependencies, terminal-based text editor written in pure Python.",
         "image": "dyledit_screenshot.png",
         "key": 1

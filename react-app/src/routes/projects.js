@@ -15,7 +15,7 @@ export default function Projects() {
                 </h1>
                 <hr />
                 {
-                    data.map(cardData => <ProjectCard image={cardData.image} key={cardData.key} title={cardData.title} description={cardData.description} />)
+                    data.map(cardData => <ProjectCard image={cardData.image} github_link={cardData.github_link} key={cardData.key} title={cardData.title} description={cardData.description} />)
                 }
             </div>
         </div>
