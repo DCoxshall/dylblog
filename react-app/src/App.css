@@ -4,7 +4,6 @@ body {
     font-family: Consolas, monaco, monospace;
 }
 
-
 .InnerPage {
     text-align: left;
     width: 100%;
@@ -52,6 +51,8 @@ body {
 .ProjectCard>.ProjectText {
     width: 100%;
     text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -62,5 +63,6 @@ body {
     .ProjectCard>.ProjectText {
         width: 50%;
         text-align: center;
+        padding-left: 5px;
     }
 }
