@@ -7,7 +7,7 @@ export default class Navbar extends React.Component {
             <div className="navbar">
                 <Link to="/">home</Link>
                 <Link to="/projects">projects</Link>
-                <Link to="/pdf.pdf" target="_blank">resume</Link>
+                <Link to="/DylanCoxshallResume.pdf" target="_blank">resume</Link>
             </div>
         )
     }
