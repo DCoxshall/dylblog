@@ -1,7 +1,8 @@
 const path = require('path');
 const express = require('express')
+var http = require('http')
+var https = require('https')
 const app = express();
-const port = 80;
 
 app.use(express.static(path.join(__dirname, "..", "react-app", "build")));
 app.use(express.static("public"));
@@ -14,6 +15,7 @@ app.get("/*", (req, res) => {
     });
 });
 
-app.listen(port, () => {
-    console.log(`Example app listening on ${port}`);
-})
+// http.createServer(app).listen(80, () => {
+//     console.log(`Example app listening on 80`);
+// })
+https.createServer(app).listen(443);
