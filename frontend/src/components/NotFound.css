@@ -1,13 +1,13 @@
-#NotFoundPage > img {
+#NotFoundPage>img {
     width: 50%;
     margin: auto;
     display: block;
 }
 
-#NotFoundPage > h1 {
+#NotFoundPage>h1 {
     text-align: center;
 }
 
-#NotFoundPage > p {
+#NotFoundPage>p {
     text-align: center;
 }
