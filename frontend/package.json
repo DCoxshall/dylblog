@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "npx http-server -p 80 --proxy http://localhost:80? ./build"
+    "serve": "nohup npx http-server -p 80 --proxy http://localhost:80? ./build &"
   },
   "eslintConfig": {
     "extends": [
