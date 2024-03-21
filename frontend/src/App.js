@@ -1,14 +1,14 @@
 import "./App.css";
-import { Route, BrowserRouter, Routes } from "react-router-dom";
+import { Route, HashRouter, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./components/Home";
 import NotFound from "./components/NotFound";
-import Projects from "./components/Projects";
+import Projects from "./components/projects/ProjectsHome";
 import Blog from "./components/blog/BlogHome"
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Layout />} >
                 <Route index element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
                 <Route path="*" element={<NotFound />} />
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
